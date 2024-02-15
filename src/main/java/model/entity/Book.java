@@ -1,3 +1,5 @@
+package model.entity;
+
 public class Book {
 
     private String name;
@@ -36,7 +38,7 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Book{" +
+        return "model.entity.Book{" +
                 "name='" + name + '\'' +
                 ", author='" + author + '\'' +
                 ", year=" + year +
